@@ -4,6 +4,7 @@
 #![cfg_attr(feature = "atmega2560", doc = "**atmega2560**,")]
 #![cfg_attr(feature = "atmega8", doc = "**atmega8**,")]
 #![cfg_attr(feature = "atmega328p", doc = "**atmega328p**,")]
+#![cfg_attr(feature = "atmega328pb", doc = "**atmega328pb**,")]
 #![cfg_attr(feature = "atmega32u4", doc = "**atmega32u4**,")]
 #![cfg_attr(feature = "atmega48p", doc = "**atmega48p**,")]
 #![cfg_attr(feature = "atmega64", doc = "**atmega64**,")]

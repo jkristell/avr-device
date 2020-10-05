@@ -37,6 +37,6 @@ _include:
   - "common/twi.yaml"
   - "common/wdt.yaml"
 
-  - "timer/atmega328p.yaml"
+  - "timer/atmega328pb.yaml"
 
 
