@@ -3,9 +3,9 @@
 # Fix the SP2X status register bit to have write access
 SPI*:
   _modify:
-    SPSR:
+    SPSR*:
       access: read-write
-  SPSR:
+  SPSR*:
     _modify:
       SPIF:
         access: read-only

@@ -6,21 +6,21 @@
 # - Fix the Prescaler enumerated values
 TWI*:
   _modify:
-    TWCR:
+    TWCR*:
       access: read-write
-  TWCR:
+  TWCR*:
     _modify:
-      TWWC:
+      TWWC*:
         access: read-only
-  TWAMR:
+  TWAMR*:
     _modify:
       TWAM:
         description: "TWI (Slave) Address Mask Bits"
-  TWSR:
+  TWSR*:
     _modify:
-      TWS:
+      TWS*:
         access: read-only
-    TWPS:
+    TWPS*:
       _replace_enum:
         PRESCALER_1: [0, "Prescaler Value 1"]
         PRESCALER_4: [1, "Prescaler Value 4"]
